@@ -1,22 +1,22 @@
 {
-  "name": "<project_name>",
+  "name": "nap",
   "version": "1.0.0",
-  "description": "<project_description>",
+  "description": "Command line parsing for nodeJS",
   "main": "main.js",
   "scripts": {
-    "dev": "tsx --watch src/main.ts",
+    "dev": "tsx --watch src/main.ts --watch-dir ./src",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaxtonTerryDev/<project_repo_name>.git"
+    "url": "git+https://github.com/PaxtonTerryDev/nap.git"
   },
   "author": "PaxtonTerryDev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PaxtonTerryDev/<project_repo_name>/issues"
+    "url": "https://github.com/PaxtonTerryDev/nap/issues"
   },
-  "homepage": "https://github.com/PaxtonTerryDev/<project_repo_name>#readme",
+  "homepage": "https://github.com/PaxtonTerryDev/nap#readme",
   "devDependencies": {
     "@types/node": "^25.0.9",
     "tsx": "^4.21.0",
